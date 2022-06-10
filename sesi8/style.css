@@ -1,0 +1,174 @@
+/* 
+#80e5dd
+#018591
+#03a1a0
+#23a1af
+#d1dadf
+#d6eaeb
+ */
+
+ /* CSS BOOTSRAP */
+ .btn-outline {
+    color: #23a1af;
+    background-color: #ffffff;
+    border-color: #23a1af;
+    font-weight: bold;
+    border-radius: 0;
+  }
+
+  .btn-outline {
+  color: #23a1af;
+  background-color: #ffffff;
+  border-color: #23a1af;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}  
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+  background: #23a1af;
+  color: #ffffff;
+  border-color: #23a1af;
+  
+}
+
+
+body{
+    background-color: #f4f4f4;
+}
+
+/* NAVBAR */
+nav {
+    background: linear-gradient(to right, #d6eaeb, #23a1af);
+}
+
+ul li a {
+    color: black;
+    text-shadow: 1px 1px black;
+}
+
+a img {
+    color: black;
+}
+
+.nav-item a:hover {
+    color : white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+    border-color: rgb(0, 0, 0);
+}
+
+/* END NAVBAR  */
+
+/* HOME */
+section .jumbotron {
+    height: 300px;
+    background-image: url("img/home.jpg");
+    background-size: cover;
+}
+
+.container .display-4 {
+    font-size: 32px;    
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 140px;
+    font-family: 'Alex Brush', cursive;
+    color: white;
+}
+
+
+#About {
+    margin-bottom: 32px;
+}
+
+
+#About .row div {
+    font-family: 'Courier Prime', monospace;
+}
+
+#About .row div h2 {
+    text-align: center;
+}
+
+#About .row div img {
+    height: 320px;
+    margin-bottom: 10px;
+}
+
+#Portofolio {
+    background-color: #23a1af;
+    padding-top: 32px;
+}
+
+#Portofolio .row div img {
+    height: 500px;
+}
+
+#Portofolio .row div {
+    font-family: 'Courier Prime', monospace;
+    text-transform: uppercase;
+}
+
+#Blog .row div {
+    font-family: 'Courier Prime', monospace;
+    text-transform: uppercase;
+}
+
+.card {
+    box-shadow: 5px 5px black;
+}
+
+#Team {
+    font-family: 'Courier Prime', monospace;
+    background-color: #23a1af;
+    padding-top: 32px;
+}
+
+.team .card:hover {
+    color: #23a1af;
+}
+
+
+#Contact{
+    font-family: 'Courier Prime', monospace;
+    text-transform: uppercase;
+}
+
+textarea {
+    resize: none;
+}
+/* END HOME */
+
+/* DESKTOP */
+@media (min-width: 992px) {
+    section .jumbotron {
+        height: 600px;
+    }
+
+    .container .display-4 {
+        font-size: 64px;
+        font-weight: 1000;
+        text-align: center;
+        margin-top: 150px;
+        color: white;
+    }
+    
+    .nav-item a:hover {
+        background-color: #80e5dd;
+        color: white;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    #About .row .foto-about {
+        border-right: 5px solid #23a1af;
+    }
+    
+}
